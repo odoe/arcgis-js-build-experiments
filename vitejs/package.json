@@ -1,0 +1,28 @@
+{
+  "name": "arcgis-js-build-exp",
+  "version": "0.0.0",
+  "sideEffects": false,
+  "browserslist": {
+    "production": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.4.3"
+  },
+  "dependencies": {
+    "@arcgis/core": "^4.20.2"
+  }
+}
